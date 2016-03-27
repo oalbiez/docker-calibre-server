@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec /opt/calibre/calibre-server --with-library=${DATA_DIR} "$@"
